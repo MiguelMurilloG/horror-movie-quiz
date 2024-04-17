@@ -8,13 +8,34 @@ body {
     background-position: center;
 
 }
-
+/* heading and logo */
 h1 {
    font-family: "Jacquard", sans-serif;
    text-transform: uppercase;
    font-size: 50px;
-   background-color: black;
-   color: brown;
+   background-color:rgba(17, 3, 3,0.8);
+   color: red;
    text-align: center;
+   float: inherit;
+   margin-left: 30%;
+   margin-right: 30%;
+   margin-top: 2%;
+   text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.7);
+   border: 2px solid red;
+   border-radius: 2%;
+}
 
+main {
+    background-color: rgba(255, 255,255,0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 900px;
+    height: 600px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.quiz-box {
+    
+    display: flex;
+    justify-content: center;
 }
