@@ -1,4 +1,8 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+24&family=Oswald:wght@200..700&display=swap');
 
-background-color: blue;
+body {
+    font-family: 'Jacquard', sans-serif;
+    margin: 0;
+    padding: 0;
+   
 }
