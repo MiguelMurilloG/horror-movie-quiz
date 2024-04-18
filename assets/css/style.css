@@ -25,17 +25,44 @@ h1 {
    border-radius: 2%;
 }
 
-main {
+#quiz-box {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.container {
     background-color: rgba(255, 255,255,0.7);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     width: 900px;
     height: 600px;
     border-radius: 5px;
     margin-top: 5%;
+    margin-left: 27%;
+    margin-right: 20%;
 }
 
-.quiz-box {
-    
+/* buttons */
+
+#startButton {
+    font-size: 1.5rem;
+    background-color: rgb(240, 13, 32);
+    text-align: center;
+    margin-top: 25rem;
+    margin-bottom:4rem;
+    text-decoration: none;
+    width:150px;
+    border: 1px solid;
     display: flex;
     justify-content: center;
+
 }
+
+#startButton:hover{
+    box-shadow: 1.4rem;
+    cursor: pointer;
+
+}
+
+
+
