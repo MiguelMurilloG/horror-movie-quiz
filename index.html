@@ -12,7 +12,7 @@
         <h1>Horror Movies Quiz</h1>
     </header>
     <div class="container">
-      <h2>If you dare to play?</h2>
+      <h2>Do you wanna play a game?</h2>
         <button class="btn-big" id="instructions-btn" onclick="openInstructions()">Reveal the Dark Path</button>
         <div class="instruction-box open box" id="quiz-instruction">
             <!--list of instrunctions-->
@@ -24,12 +24,13 @@
                 <li>Each correct answer earns you 10 point.</li>
                 <li>Click "Step Into The Nightmares" to begin.</li>
              </ul>
-             <button aria-label="close the instructions" type="button" onclick="closeInstructions()">OK</button>
+        <button aria-label="close the instructions" type="button" onclick="closeInstructions()">OK</button>
 
             
             
         </div>
-        <button class="btn-big">Step Into The Nightmares</button>
+        <button class="btn-big" id="start-button" onclick="window.location.href='quiz.html'">Step Into The Nightmares</button>
+
 
     </div>
 
