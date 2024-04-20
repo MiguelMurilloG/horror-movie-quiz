@@ -55,7 +55,7 @@ h1 {
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -122,9 +122,7 @@ h2{
 }
  
 /* style for the question page */
-#quiz-wrapper {
-    background: url(../images/death-hands.jpg);
-}
+
 
 
 
@@ -146,25 +144,19 @@ footer {
 }
 
 
-/* Media queries */
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width:1200px) {
 
-@media (max-width: 320px) {
-    .container {
-        height: 70vh;
-        width: fit-content;
+    #main-container {
+        max-width: 100%;
+        
     }
 }
 
-/* For small screens sizes from 576px wide and down */
-
-@media (max-width: 576px) {
-    .container {
-        width: 100%;
+/* Medium screen sizes from 950px wide and down */
+@media screen and (max-width:950px) {
+       
+    #hero-image {
+        max-height: 300px;
+       }
     }
-
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1.5em;
-    }
-}
