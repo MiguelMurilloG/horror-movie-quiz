@@ -12,19 +12,33 @@
         <h1>Horror Movies Quiz</h1>
     </header>
     <div class="container">
-        <div id="intro" class="flex-centre flex-column"></div>
-               <h2>Are you dare to play?</h2>
-               <button class="btn-big" id="instructions-btn" onclick="openInstructions"()>Reveal the Dark Path</button>
-               <button class="btn-big">Step Into The Nightmares</button>
+      <h2>If you dare to play?</h2>
+        <button class="btn-big" id="instructions-btn" onclick="openInstructions()">Reveal the Dark Path</button>
+        <div class="instrunction-box" id="quiz-instructions">
+            <!--list of instrunctions-->
+            <h3>Instructions</h3>
+             <ul>
+                <li>You will face 5 questions, each more chilling than the last</li>
+                <li>Choose your answer wisely</li>
+                <li>No turning back once you've begun</li>
+                <li>Each correct answer earns you 10 point</li>
+                <li>Click "Step Into The Nightmares" to begin</li>
+             </ul>
+             <button aria-label="close the instructions" type="button" onclick="closeInstrunctions()">OK</button>
+            
+            
+        </div>
+        <button class="btn-big">Step Into The Nightmares</button>
+
     </div>
 
     <footer>
-
+       Developed by Miguel Murillo
     </footer>
-    <!-- Background Music -->
-   <!--- <audio controls autoplay loop>
+   
+   <audio controls autoplay loop>
         <source src="/background-music.mp3" type="audio/mp3">
-    </audio> -->
+    </audio> 
 
     <script src="assets/js/script.js"></script>
 </body>

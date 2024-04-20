@@ -41,7 +41,7 @@ h1 {
     background-color: rgba(255, 255,255,0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     width:800px;
-    height: 700px; 
+    height: 600px; 
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -73,4 +73,23 @@ h2{
     margin-top: 1%;
     
    
+}
+
+.instrunction-box {
+    font-size: 15px;
+   background-color: white;
+    position: absolute;
+    text-align: center;
+    box-shadow: none;
+    transition: transform 0.4s, top 0.4s;
+    visibility: hidden;
+
+}
+.open-box{
+    visibility: visible;
+    top:50%;
+
+}
+.instrunction-box h3 {
+    text-transform: uppercase;
 }
