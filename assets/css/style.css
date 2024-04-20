@@ -109,3 +109,17 @@ h2{
     list-style: none;
 }
 
+.instruction-box button{
+    width: 80px;
+    padding: 1rem;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+
+}
+audio {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
