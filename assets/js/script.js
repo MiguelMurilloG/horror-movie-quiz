@@ -1,11 +1,17 @@
-let instructionBox = document.getElementById("quiz-instructions");
-
+// Function to open the instructions
 function openInstructions() {
-    document.getElementById('start-button').style.display = 'none';
-    instructionBox.classList.add("open-box");
+    var instructionBox = document.getElementById("quiz-instruction");
+    instructionBox.style.display = "block";
 }
 
+// Function to close the instructions
 function closeInstructions() {
-    instructionBox.classList.remove("open-box");
-    document.getElementById('start-button').style.display = 'block';
+    var instructionBox = document.getElementById("quiz-instruction");
+    instructionBox.style.display = "none";
 }
+
+// Event listener for opening the instructions
+document.getElementById("instructions-btn").addEventListener("click", openInstructions);
+
+// Event listener for closing the instructions
+document.getElementById("close-instructions-btn").addEventListener("click", closeInstructions);

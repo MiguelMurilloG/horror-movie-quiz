@@ -8,7 +8,7 @@ body {
     background-image: url(../images/creepy-house.jpg);
     background-position: center;
     background-size:cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
     
 
 }
@@ -75,21 +75,37 @@ h2{
    
 }
 
-.instrunction-box {
+.btn-big:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.instruction-box {
+    width: 40rem;
+    height: 15rem;
     font-size: 15px;
-   background-color: white;
+    background-color: black;
+    padding: 0;
+    color: red ;
     position: absolute;
     text-align: center;
-    box-shadow: none;
     transition: transform 0.4s, top 0.4s;
-    visibility: hidden;
-
+  
 }
+
 .open-box{
     visibility: visible;
     top:50%;
 
 }
-.instrunction-box h3 {
+.instruction-box h3 {
     text-transform: uppercase;
+    margin: 30px 0 10px;
+    font-size: 30px;
+    font-weight: 300;
+   
 }
+
+.instruction-box li {
+    list-style: none;
+}
+
