@@ -123,3 +123,13 @@ audio {
     margin-top: 50px;
 }
 
+footer {
+    position: absolute;
+    margin-top: 100px;
+    font-size: 30px;
+    color: red;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
