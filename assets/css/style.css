@@ -49,7 +49,8 @@ h1 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 0,auto;
+    margin: 0, auto;
+
 
 }
 
@@ -89,6 +90,8 @@ h2{
     position: absolute;
     text-align: center;
     transition: transform 0.4s, top 0.4s;
+    display: none;
+
   
 }
 
@@ -117,6 +120,12 @@ h2{
     
 
 }
+ 
+/* style for the question page */
+#quiz-wrapper {
+    background: url(../images/death-hands.jpg);
+}
+
 
 
 audio {
@@ -134,4 +143,28 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
+}
+
+
+/* Media queries */
+
+@media (max-width: 320px) {
+    .container {
+        height: 70vh;
+        width: fit-content;
+    }
+}
+
+/* For small screens sizes from 576px wide and down */
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5em;
+    }
 }
