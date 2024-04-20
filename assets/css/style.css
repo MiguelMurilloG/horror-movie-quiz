@@ -5,7 +5,10 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(../images/horror-movies.jpeg);
+    background-color: black;
     background-position: center;
+    background-size: cover;
+    
 
 }
 /* heading and logo */
@@ -25,37 +28,15 @@ h1 {
    border-radius: 2%;
 }
 
-#quiz-box {
-    
-    display: flex;
-    justify-content: center;
-}
 
-#intro {
 
-background-color: blue;
-margin-bottom: 1p;
-
-   
-
-}
-
-#intro p{
-    font-size: 20px; 
-}
-
-#intro h2 {
-    font-size: 30px;
-}
 .container {
     background-color: rgba(255, 255,255,0.7);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    width: 900px;
+    width:600px;
     height: 600px;
-    border-radius: 5px;
-    margin-top: 5%;
-    margin-left: 27%;
-    margin-right: 20%;
+    
+   
 }
 
 /* buttons */
