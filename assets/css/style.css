@@ -123,6 +123,16 @@ h2{
  
 /* style for the question page */
 
+#quiz-content {
+    background-image: url(../images/death-hands.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+}
 
 
 

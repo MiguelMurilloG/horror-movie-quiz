@@ -15,3 +15,5 @@ document.getElementById("instructions-btn").addEventListener("click", openInstru
 
 // Event listener for closing the instructions
 document.getElementById("close-instructions-btn").addEventListener("click", closeInstructions);
+
+
