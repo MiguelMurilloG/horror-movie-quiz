@@ -127,7 +127,7 @@ h2{
     background-image: url(../images/death-hands.jpg);
     margin: 0;
     padding: 0;
-    height: 81vh;
+    height: 80vh;
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@ h2{
     height: 600px; 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12%;
+    margin-top: 15%;
     display: flex;
     align-items: center;
     position: relative;
@@ -157,7 +157,22 @@ h2{
     border: 1px solid black;
     background-color: white;
 }
+
+.option-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 red;
+    transform: translateY(-0.1rem);
+   
+}
   
+.option-prefix {
+    padding: 1rem;
+    background-color: red;
+    color: black;
+}
+.option-text {
+    padding: 1px;
+}
 
 
 audio {

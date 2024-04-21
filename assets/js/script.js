@@ -17,3 +17,5 @@ document.getElementById("instructions-btn").addEventListener("click", openInstru
 document.getElementById("close-instructions-btn").addEventListener("click", closeInstructions);
 
 
+const question = document.getElementById("question")
+const
