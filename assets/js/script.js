@@ -19,10 +19,3 @@ document.getElementById("close-instructions-btn").addEventListener("click", clos
 //Fun
 const question = document.getElementById("question")
 const option = Array.from (document.getElementsByClassName("option-text"))
-
-let currentQuestion ={};
-let correctAnswers = true;
-let score = 0;
-let questionCounter = 0;
-let availableQuestions = []
-
