@@ -1,11 +1,24 @@
-
+const question = document.getElementById ("question");
+const options = document.getElementsByClassName("option-text");
 
 let currentQuestion ={};
 let correctAnswers = true;
 let score = 0;
 let questionCounter = 0;
-let availableQuestions = []
+let availableQuestions = [];
 
+// CONSTANTS
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 5;
+
+// Function of the game
+
+function runGame(){
+    questionCounter = 0;
+    score =0;
+    remainingQuestions = [...questions];
+    displayNextQuestion();
+}
 
 const questions =[
     {
