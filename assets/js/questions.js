@@ -42,7 +42,7 @@ const questions =[
         option2: "Hellraiser",
         option3: "Dracula",
         option4:"Pet Sementary",
-        anwer: 1,
+        answer: 1,
     },
 
     {
