@@ -11,14 +11,31 @@ let availableQuestions = [];
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
 
-// Function of the game
+// Function of the start of the game
 
 function runGame(){
     questionCounter = 0;
     score =0;
-    remainingQuestions = [...questions];
+    remainingQuestions = [...questions]; 
     displayNextQuestion();
+};
+
+function displayNextQuestion () {
+if (remainingQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    //Show end message 
+    showEndMessage ();
+    return;
 }
+
+questionCounter++;
+
+
+}
+ 
+
+
+questionCounter++;
+console.log
 
 const questions =[
     {
