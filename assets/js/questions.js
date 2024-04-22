@@ -65,6 +65,17 @@ getNewQuestion = () => {
     
     // Remove the selected question from the remaining questions array
     remainingQuestions.splice(questionIndex, 1);
-};
+
+     correctAnswer = true;
+}
+
+options.forEach(option =>{
+    option.addEventListener ("click", e =>{
+        if (!correctAnswer) return;
+        correctAnswer = false;
+
+    });
+
+    });
 
 startGame();
