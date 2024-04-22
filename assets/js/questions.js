@@ -1,5 +1,9 @@
 const question = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName("option-text"));
+const progressBar = document.getElementById("progress-bar");
+const userscore = document.getElementById("user-score");
+const endMessage = document.getElementById("end-message-text");
+const questionTracker = document.getElementById ("question-tracker");
 
 let currentQuestion = {};
 let correctAnswer = false;
@@ -72,7 +76,12 @@ getNewQuestion = () => {
 options.forEach(option =>{
     option.addEventListener ("click", e =>{
         if (!correctAnswer) return;
+
         correctAnswer = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset["number"]
+        console.log(selectedAnswer)
+        getNewQuestion ();
 
     });
 
