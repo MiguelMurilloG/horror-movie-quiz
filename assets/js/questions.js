@@ -1,23 +1,17 @@
-
-const question = document.getElementById("question");
+// Get DOM elements
+const questionElement = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName("option-text"));
-const progressBar = document.getElementById("progress-bar");
-const userscore = document.getElementById("user-score");
 const endMessage = document.getElementById("end-message-text");
-const questionTracker = document.getElementById ("question-tracker");
 
+// Variables to track quiz state
 let currentQuestion = {};
-let correctAnswer = false;
-let score = 0;
 let questionCounter = 0;
 let remainingQuestions = [];
-let currentIndex = 0;
 
 // CONSTANTS
-const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
 
-//Array of questions
+// Array of questions
 const questions = [
     {
         question: "In 'The Exorcist', directed by William Friedkin, what is the name of the possessed girl?",
@@ -46,50 +40,57 @@ const questions = [
     }
 ];
 
-startQuiz = () => {
+// Function to start the quiz
+function startQuiz() {
     questionCounter = 0;
-    score = 0;
     remainingQuestions = [...questions];
-    //console.log(remainingQuestions);
     getNewQuestion();
-};
+}
 
-getNewQuestion = () => {
+// Function to get a new question
+function getNewQuestion() {
     if (remainingQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // End the game
+        endQuiz();
         return;
     }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * remainingQuestions.length);
     currentQuestion = remainingQuestions[questionIndex];
-    question.innerText = currentQuestion.question;
-    
+    questionElement.innerText = currentQuestion.question;
+
     // Set options text
     options.forEach((option, index) => {
         option.innerText = currentQuestion.options[index];
     });
-    
+
     // Remove the selected question from the remaining questions array
     remainingQuestions.splice(questionIndex, 1);
-
-     correctAnswer = true;
 }
 
-options.forEach(option =>{
-    option.addEventListener ("click", e =>{
-        if (!correctAnswer) return;
+// Function to end the quiz
+function endQuiz() {
+    // Hide the question element
+    questionElement.style.display = "none";
 
-        correctAnswer = false;
-        const selectedChoice = e.target; // Changed from selectedOption
-        const selectedAnswer = selectedChoice.dataset["number"]
+    // Hide the options
+    options.forEach(option => {
+        option.style.display = "none";
+    });
 
-        // Check answers 
-        const checkAnswer = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+    // Display end message
+    endMessage.textContent = "Quiz ended! Thank you for playing.";
+    endMessage.style.display = "block";
+}
 
-        if (checkAnswer === "correct") {
-            incrementScore(CORRECT_BONUS);
-            console.log(checkAnswer);
-        }
+// Event listeners for option selection
+options.forEach(option => {
+    option.addEventListener("click", e => {
+        const selectedChoice = e.target;
+        const selectedAnswer = parseInt(selectedChoice.dataset["number"]); // Parse to integer
+
+        // Check answers
+        const checkAnswer = selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect'; // Use strict equality (===)
 
         // Add class to indicate correct or incorrect answer
         selectedChoice.classList.add(checkAnswer);
@@ -101,4 +102,5 @@ options.forEach(option =>{
     });
 });
 
+// Start the quiz
 startQuiz();
