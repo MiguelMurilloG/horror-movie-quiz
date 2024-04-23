@@ -78,24 +78,24 @@ options.forEach(option =>{
         if (!correctAnswer) return;
 
         correctAnswer = false;
-        const selectedChoice = e.target;
+        const selectedChoice = e.target; // Changed from selectedOption
         const selectedAnswer = selectedChoice.dataset["number"]
 
-        //check answers 
-        
+        // Check answers 
         const checkAnswer = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (checkAnswer === "correct") {
             incrementScore(CORRECT_BONUS);
         }
 
-        //Add class to indicate correct ot incorrect answer
+        // Add class to indicate correct or incorrect answer
+        selectedChoice.classList.add(checkAnswer);
 
-       
-        getNewQuestion ();
-
+        setTimeout(() => {
+            selectedChoice.classList.remove(checkAnswer);
+            getNewQuestion();
+        }, 1000);
     });
-
-    });
+});
 
 startQuiz();
