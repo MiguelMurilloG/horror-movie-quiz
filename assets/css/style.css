@@ -1,3 +1,4 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+24&family=Oswald:wght@200..700&display=swap');
 
 body {
@@ -7,41 +8,40 @@ body {
     height: 100vh;
     background-image: url(../images/creepy-house.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    
-
 }
-/* heading and logo */
+
+/* Heading and Logo */
 h1 {
-   font-family: "Jacquard", sans-serif;
-   text-transform: uppercase;
-   font-size: 50px;
-   background-color:rgba(17, 3, 3,0.5);
-   color: red;
-   text-align: center;
-   float: inherit;
-   margin-left: 30%;
-   margin-right: 30%;
-   margin-top: 2%;
-   text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.7);
-   border: 2px solid red;
-   border-radius: 2%;
+    font-family: "Jacquard", sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    background-color: rgba(17, 3, 3, 0.5);
+    color: red;
+    text-align: center;
+    float: inherit;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border: 2px solid red;
+    border-radius: 2%;
 }
 
-*{
+/* General Styling */
+* {
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     padding: 0%;
-
 }
 
 .container {
-    background-color: rgba(255, 255,255,0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    width:800px;
-    height: 600px; 
+    width: 800px;
+    height: 600px;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -49,12 +49,9 @@ h1 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 0, auto;
-
-
 }
 
-.container h2{
+.container h2 {
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
@@ -63,7 +60,7 @@ h1 {
 /* Buttons */
 .btn-big {
     font-size: 1rem;
-    padding: 3% ;
+    padding: 3%;
     text-decoration: none;
     color: black;
     width: auto;
@@ -72,8 +69,6 @@ h1 {
     overflow: hidden;
     transition: 0.2s;
     margin-top: 4%;
-    
-   
 }
 
 .btn-big:hover {
@@ -86,67 +81,59 @@ h1 {
     font-size: 15px;
     background-color: black;
     padding: 0;
-    color: red ;
+    color: red;
     position: absolute;
     text-align: center;
     transition: transform 0.4s, top 0.4s;
     display: none;
-
-  
 }
 
-.open-box{
+.open-box {
     visibility: visible;
-    top:50%;
-
+    top: 50%;
 }
+
 .instruction-box h3 {
     text-transform: uppercase;
     margin: 30px 0 10px;
     font-size: 30px;
     font-weight: 300;
-   
 }
 
 .instruction-box li {
     list-style: none;
 }
 
-.instruction-box button{
+.instruction-box button {
     width: 80px;
     padding: 1rem;
     margin-top: 10px;
     border-radius: 20px;
-    
-
 }
- 
-/* style for the question page */
 
+/* Quiz Content Styling */
 #quiz-content {
     background-image: url(../images/death-hands.jpg);
     margin: 0%;
     padding: 0%;
     height: 80vh;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
-  
 }
 
-/* style for question box page */
 .quiz-container {
-    background-color: rgba(255, 255,255,0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 2);
-    width:900px;
-    height: 600px; 
+    width: 900px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15%;
     display: flex;
     align-items: center;
     position: relative;
-    border-radius: 30px;   
+    border-radius: 30px;
 }
 
 .option-container {
@@ -162,29 +149,19 @@ h1 {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 red;
     transform: translateY(-0.1rem);
-   
 }
-  
+
 .option-prefix {
     padding: 1rem;
     background-color: red;
     color: black;
 }
+
 .option-text {
     padding: 1px;
     width: 100%;
+    margin-top: 2%;
 }
-
-#game h2 {
-    font-size: 2rem;
-}
-
-.option-text {
-
-    margin-top: 2% ;
-    width: 100%;
-}
-
 
 audio {
     display: block;
@@ -203,20 +180,17 @@ footer {
     z-index: 1;
 }
 
-
+/* Media Queries */
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width:1200px) {
-
+@media screen and (max-width: 1200px) {
     #main-container {
         max-width: 100%;
-        
     }
 }
 
 /* Medium screen sizes from 950px wide and down */
-@media screen and (max-width:950px) {
-       
+@media screen and (max-width: 950px) {
     #hero-image {
         max-height: 300px;
-       }
     }
+}
