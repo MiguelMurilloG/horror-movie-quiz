@@ -163,6 +163,12 @@ h1 {
     margin-top: 2%;
 }
 
+ h2 {
+    font-size: 30px;
+}
+
+
+
 audio {
     display: block;
     margin: auto;
@@ -180,6 +186,20 @@ footer {
     z-index: 1;
 }
 
+/*end quiz*/
+#end-message {
+margin-bottom: 20px;
+font-size: 40px;
+color: red;
+}
+
+#user-score {
+    font-weight: bold;
+}
+
+#play-again-btn {
+    background-color: red;
+}
 /* Media Queries */
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
