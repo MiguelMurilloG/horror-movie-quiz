@@ -44,7 +44,7 @@ const questions = [
     }
 ];
 
-startGame = () => {
+startQuiz = () => {
     questionCounter = 0;
     score = 0;
     remainingQuestions = [...questions];
@@ -80,11 +80,22 @@ options.forEach(option =>{
         correctAnswer = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"]
-        console.log(selectedAnswer)
+
+        //check answers 
+        
+        const checkAnswer = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+        if (checkAnswer === "correct") {
+            incrementScore(CORRECT_BONUS);
+        }
+
+        //Add class to indicate correct ot incorrect answer
+
+       
         getNewQuestion ();
 
     });
 
     });
 
-startGame();
+startQuiz();
