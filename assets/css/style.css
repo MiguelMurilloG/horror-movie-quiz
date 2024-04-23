@@ -185,6 +185,13 @@ h1 {
     width: 100%;
 }
 
+#progress-bar {
+    width: 0%;
+    height: 10px;
+    background-color: blue;
+    margin-top: 1px;
+}
+
 audio {
     display: block;
     margin: auto;

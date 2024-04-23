@@ -11,6 +11,7 @@ let correctAnswer = false;
 let score = 0;
 let questionCounter = 0;
 let remainingQuestions = [];
+let currentIndex = 0;
 
 // CONSTANTS
 const CORRECT_BONUS = 10;
@@ -49,7 +50,7 @@ startQuiz = () => {
     questionCounter = 0;
     score = 0;
     remainingQuestions = [...questions];
-    console.log(remainingQuestions);
+    //console.log(remainingQuestions);
     getNewQuestion();
 };
 
@@ -87,6 +88,7 @@ options.forEach(option =>{
 
         if (checkAnswer === "correct") {
             incrementScore(CORRECT_BONUS);
+            console.log(checkAnswer);
         }
 
         // Add class to indicate correct or incorrect answer
