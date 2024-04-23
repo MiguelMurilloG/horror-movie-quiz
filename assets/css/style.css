@@ -159,7 +159,7 @@ h1 {
    
 }
 
-#quiz-options {
+.quiz-options {
     display: flex;
     flex-direction: column;
     width: 147%;

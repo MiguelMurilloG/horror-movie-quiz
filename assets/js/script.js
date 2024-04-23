@@ -18,3 +18,10 @@ document.getElementById("close-instructions-btn").addEventListener("click", clos
 
 //Function for the questions
 
+//  CONSTANTS
+
+const quizQuestions = document.getElementById('quiz-questions');
+const quizOptions =document.getElementById('quiz-options');
+const nextQuestion = document.getElementById('next-btn');
+const movieReveal = document.getElementById('movieReveal');
+
