@@ -185,6 +185,17 @@ h1 {
     width: 100%;
 }
 
+.user-score{
+    height: 200px;
+}
+
+#options-container {
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 5px;
+    height: 230px;
+    margin-right: 30px;
+}
 audio {
     display: block;
     margin: auto;
