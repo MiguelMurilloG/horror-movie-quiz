@@ -116,7 +116,7 @@ h1 {
     background-image: url(../images/death-hands.jpg);
     margin: 0%;
     padding: 0%;
-    height: 100vh;
+    height: 92vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -272,13 +272,5 @@ footer {
         max-width: 100%; 
        
     }
-    body {
-        background-size: cover;
-    }
-
-    .container {
-        max-width: 100%;
-        margin: 0 auto;
-        height: auto;
-    }
+  
 }
