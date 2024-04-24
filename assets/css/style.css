@@ -155,12 +155,15 @@ h1 {
     padding: 1rem;
     background-color: red;
     color: black;
+   
 }
 
 .option-text {
     padding: 1px;
     width: 100%;
-    margin-top: 2%;
+   
+    
+
 }
 
  h2 {
@@ -186,7 +189,30 @@ h1 {
 #play-again-btn {
     background-color: black;
 }
+/*end quiz*/
+#end-message {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: red;
+    }
+    
+    #user-score {
+        font-weight: bold;
+    }
+    
+    #play-again-btn {
+        background-color: red;
+        
+    }
+    /*highlited correct and incorrect answers*/
+    .correct {
+        background-color: green;
+      
+    }
 
+    .incorrect {
+        background-color: red;
+    }
 audio {
     display: block;
     margin: auto;
@@ -204,20 +230,7 @@ footer {
     z-index: 1;
 }
 
-/*end quiz*/
-#end-message {
-margin-bottom: 20px;
-font-size: 40px;
-color: red;
-}
 
-#user-score {
-    font-weight: bold;
-}
-
-#play-again-btn {
-    background-color: red;
-}
 /* Media Queries */
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
