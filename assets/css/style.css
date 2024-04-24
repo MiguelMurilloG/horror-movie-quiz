@@ -16,7 +16,7 @@ body {
 h1 {
     font-family: "Jacquard", sans-serif;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
     background-color: rgba(17, 3, 3, 0.5);
     color: red;
     text-align: center;
@@ -52,7 +52,7 @@ h1 {
 }
 
 .container h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -116,7 +116,7 @@ h1 {
     background-image: url(../images/death-hands.jpg);
     margin: 0%;
     padding: 0%;
-    height: 80vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@ h1 {
 }
 
 .option-text {
-    padding: 1px;
+    padding: 10px;
     width: 100%;
    
     
@@ -188,6 +188,9 @@ h1 {
 
 #play-again-btn {
     background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
 /*end quiz*/
 #end-message {
@@ -231,17 +234,51 @@ footer {
 }
 
 
-/* Media Queries */
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #main-container {
-        max-width: 100%;
+/* For screens up to 576px wide (e.g., smartphones) */
+@media (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+    .quiz-container {
+        width: 100%;
+    }
+
+    .quiz-questions {
+        font-size: 16px; /* Adjust font size for better readability on smaller screens */
+    }
+
+    .option-container {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+
+    .choice-btn {
+        width: 100%; 
+    }
+
+    #quiz-end {
+        width: 100%; 
     }
 }
 
-/* Medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-    #hero-image {
-        max-height: 300px;
+/* For screens between 576px and 1200px wide */
+@media (min-width: 577px) and (max-width: 1200px) {
+
+    .container {
+       max-width: 100%;
+       height: auto;
+    }
+    .quiz-container {
+        max-width: 100%; 
+       
+    }
+    body {
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        height: auto;
     }
 }
