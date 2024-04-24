@@ -168,6 +168,24 @@ h1 {
 }
 
 
+/*style for the end section*/
+
+#quiz-end {
+    display: none;
+    text-align: center;
+    padding: 20%;
+}
+
+.quiz-container-end {
+  background-color: blue;
+  border-radius: 10px ;
+
+
+}
+
+#play-again-btn {
+    background-color: black;
+}
 
 audio {
     display: block;
