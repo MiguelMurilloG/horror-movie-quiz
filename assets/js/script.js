@@ -16,6 +16,10 @@ document.getElementById("instructions-btn").addEventListener("click", openInstru
 // Event listener for closing the instructions
 document.getElementById("close-instructions-btn").addEventListener("click", closeInstructions);
 
+// Event listener for closing the instructions
+
+
+
 //Function for the questions
 const question = document.getElementById("question")
 const option = Array.from (document.getElementsByClassName("option-text"))

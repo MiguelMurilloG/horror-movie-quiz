@@ -1,7 +1,9 @@
 // Get DOM elements
 const questionElement = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName("option-text"));
-const endMessage = document.getElementById("end-message-text");
+const endMessageContainer = document.getElementById("quiz-end");
+const endMessage = document.getElementById ("end-message-text")
+const gameContainer = document.getElementById("game");
 
 // Variables to track quiz state
 let currentQuestion = {};
@@ -71,7 +73,7 @@ function getNewQuestion() {
 // Function to end the quiz
 function endQuiz() {
     // Hide the question element
-    questionElement.style.display = "none";
+    gameContainer.style.display = "none";
 
     // Hide the options
     options.forEach(option => {
@@ -79,9 +81,14 @@ function endQuiz() {
     });
 
     // Display end message
-    endMessage.textContent = "Quiz ended! Thank you for playing.";
-    endMessage.style.display = "block";
-    playAgaingButton.style.display = "block";
+    endMessage.textContent = "The darkness has consumed you. Quiz ended.";
+    endMessageContainer.style.display = "block";
+    const playAgainButton = document.getElementById("play-again-btn");
+  
+   
+ 
+   
+    
 }
 
 // Event listeners for option selection
@@ -91,7 +98,7 @@ options.forEach(option => {
         const selectedAnswer = parseInt(selectedChoice.dataset["number"]); // Parse to integer
 
         // Check answers
-        const checkAnswer = selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect'; // Use strict equality (===)
+        const checkAnswer = selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect'; 
 
         // Add class to indicate correct or incorrect answer
         selectedChoice.classList.add(checkAnswer);
@@ -104,4 +111,5 @@ options.forEach(option => {
 });
 
 // Start the quiz
-startQuiz();
+
+    startQuiz();
