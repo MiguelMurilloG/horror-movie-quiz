@@ -4,6 +4,7 @@ const options = Array.from(document.getElementsByClassName("option-text"));
 const endMessageContainer = document.getElementById("quiz-end");
 const endMessage = document.getElementById ("end-message-text")
 const gameContainer = document.getElementById("game");
+const userScore = parseInt(localStorage.getItem('userScore'));
 
 // Variables to track quiz state
 let currentQuestion = {};
@@ -11,6 +12,7 @@ let questionCounter = 0;
 let remainingQuestions = [];
 
 // CONSTANTS
+const  CORRECT_BONUS =10;
 const MAX_QUESTIONS = 5;
 
 // Array of questions
@@ -80,11 +82,13 @@ function endQuiz() {
         option.style.display = "none";
     });
 
+   
+
     // Display end message
     endMessage.textContent = "The darkness has consumed you. Quiz ended.";
     endMessageContainer.style.display = "block";
     const playAgainButton = document.getElementById("play-again-btn");
-  
+    playAgainButton.addEventListener ("click", startQuiz);
    
  
    
@@ -95,10 +99,11 @@ function endQuiz() {
 options.forEach(option => {
     option.addEventListener("click", e => {
         const selectedChoice = e.target;
-        const selectedAnswer = parseInt(selectedChoice.dataset["number"]); // Parse to integer
+        const selectedAnswer = parseInt(selectedChoice.dataset["number"]); 
 
         // Check answers
         const checkAnswer = selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect'; 
+     
 
         // Add class to indicate correct or incorrect answer
         selectedChoice.classList.add(checkAnswer);

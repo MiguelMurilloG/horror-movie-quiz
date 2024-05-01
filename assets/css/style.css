@@ -170,7 +170,14 @@ h1 {
     font-size: 30px;
 }
 
+#top-score {
+    
+    width: 200px;
+}
 
+.top-score-counter {
+    width: 100px;
+}
 /*style for the end section*/
 
 #quiz-end {

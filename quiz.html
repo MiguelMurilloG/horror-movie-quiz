@@ -11,6 +11,10 @@
    <section>
   <div class="quiz-container">
     <div id="game" class="quiz-questions">
+      <div id="top-score">
+        <div class="top-score-display"></div>
+        <h1 class="top-score-counter" id="user-score" class="score-number">0</h1>
+      </div>
       <h2 id="question">In 'The Exorcist', directed by William Friedkin, what is the name of the possesed girl?</h2>
       <div class="option-container">
         <p class="option-prefix">A</p>
@@ -36,7 +40,8 @@
             <p>Your score: <span id="user-score">0</span></p>
             <p id="end-message-text"></p>
          </div>
-         <button class="button" id="play-again-btn">Play Again</button>
+         <button class="button" id="play-again-btn" type="button" onclick="window.location.href='quiz.html'">Play Again</button>
+         <button class="button" id="play-again-btn" type="button" onclick="window.location.href='index.html'">End Quiz</button>
       </div> 
     </div>
   </div>
