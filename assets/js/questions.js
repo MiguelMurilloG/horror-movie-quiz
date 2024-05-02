@@ -15,7 +15,7 @@ let remainingQuestions = [];
 
 // CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 6;
 
 // Array of questions
 const questions = [
@@ -49,7 +49,7 @@ const questions = [
 
 // Function to start the quiz
 function startQuiz() {
-    questionCounter = 0;
+    questionCounter = 1;
     score = 0;
     remainingQuestions = [...questions];
     getNewQuestion();
@@ -61,6 +61,7 @@ function getNewQuestion() {
         endQuiz();
         return;
     }
+    document.getElementById('question-counter').textContent = `Question ${questionCounter}`;
 
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * remainingQuestions.length);
@@ -85,7 +86,7 @@ function endQuiz() {
         container.style.display = "none";
     });
 
-    // Display end message
+    // Display end message depend of the score
     let endMessageText = "";
     if (score >= 40) {
         endMessageText = "Amazing! You survived the Horror Movie Quiz";
