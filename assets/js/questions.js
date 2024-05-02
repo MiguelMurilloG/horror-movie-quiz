@@ -86,12 +86,12 @@ function endQuiz() {
     });
 
     // Display end message
-    endMessage.textContent = "The darkness has consumed you. Quiz ended.";
+    endMessage.textContent = `The darkness has consumed you. Quiz ended. Your final score: ${score}`;
     endMessageContainer.style.display = "block";
     const playAgainButton = document.getElementById("play-again-btn");
     playAgainButton.addEventListener("click", () => {
-        endMessageContainer.style.display = "none";
-        gameContainer.style.display = "block";
+    endMessageContainer.style.display = "none";
+    gameContainer.style.display = "block";
        
     });
 }
