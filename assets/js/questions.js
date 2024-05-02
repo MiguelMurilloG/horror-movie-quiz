@@ -4,7 +4,7 @@ const options = Array.from(document.getElementsByClassName("option-text"));
 const endMessageContainer = document.getElementById("quiz-end");
 const endMessage = document.getElementById("end-message-text");
 const gameContainer = document.getElementById("game");
-const scoreText = document.getElementById("user-score"); // Updated to correctly target the score display element
+const scoreText = document.getElementById("user-score"); 
 
 // Variables to track quiz state
 let currentQuestion = {};
@@ -86,7 +86,7 @@ function endQuiz() {
     });
 
     // Display end message
-    endMessage.textContent = `The darkness has consumed you. Quiz ended. Your final score: ${score}`;
+    endMessage.textContent = `The darkness has consumed you. Your final score is: ${score}`;
     endMessageContainer.style.display = "block";
     const playAgainButton = document.getElementById("play-again-btn");
     playAgainButton.addEventListener("click", () => {
