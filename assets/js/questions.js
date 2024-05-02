@@ -15,7 +15,7 @@ let remainingQuestions = [];
 
 // CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 6;
+const MAX_QUESTIONS = 5;
 
 // Array of questions
 const questions = [
@@ -49,7 +49,7 @@ const questions = [
 
 // Function to start the quiz
 function startQuiz() {
-    questionCounter = 1;
+    questionCounter = 0;
     score = 0;
     remainingQuestions = [...questions];
     getNewQuestion();
@@ -61,7 +61,7 @@ function getNewQuestion() {
         endQuiz();
         return;
     }
-    document.getElementById('question-counter').textContent = `Question ${questionCounter}`;
+    document.getElementById('question-counter').textContent = `Question ${questionCounter + 1}`;
 
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * remainingQuestions.length);
