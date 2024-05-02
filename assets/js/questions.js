@@ -86,14 +86,24 @@ function endQuiz() {
     });
 
     // Display end message
-    endMessage.textContent = `The darkness has consumed you. Your final score is: ${score}`;
-    endMessageContainer.style.display = "block";
-    const playAgainButton = document.getElementById("play-again-btn");
-    playAgainButton.addEventListener("click", () => {
-    endMessageContainer.style.display = "none";
-    gameContainer.style.display = "block";
-       
-    });
+    let endMessageText = "";
+    if (score >= 40) {
+        endMessageText = "Amazing! You survived the Horror movie quiz";
+    } else if (score >= 20) {
+        endMessageText = "Not bad! Keep trying to escaping from your nightmares..";
+    } else {
+        endMessageText = "Too bad...Welcome to hell!";
+    }
+
+  
+  endMessage.textContent = `${endMessageText} Your final score is: ${score}`;
+  endMessageContainer.style.display = "block";
+  const playAgainButton = document.getElementById("play-again-btn");
+  playAgainButton.addEventListener("click", () => {
+  endMessageContainer.style.display = "none";
+  gameContainer.style.display = "block";
+     
+  });
 }
 
 // Event listeners for option selection
@@ -103,7 +113,7 @@ options.forEach((option) => {
 
         acceptingAnswers = false;
         const selectedOption = e.target;
-        const selectedAnswer = parseInt(selectedOption.dataset["number"]); // Parse the dataset number as integer
+        const selectedAnswer = parseInt(selectedOption.dataset["number"]); 
 
         // Check answers if they are correct or incorrect
         const checkAnswer = selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect';
@@ -115,7 +125,7 @@ options.forEach((option) => {
         selectedOption.classList.add(checkAnswer);
         setTimeout(() => {
             selectedOption.classList.remove(checkAnswer);
-            getNewQuestion(); // Call getNewQuestion to proceed to the next question
+            getNewQuestion(); 
         }, 1000);
     });
 });
