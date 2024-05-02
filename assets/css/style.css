@@ -230,11 +230,15 @@ h1 {
     .incorrect {
         background-color: red;
     }
-audio {
-    display: block;
-    margin: auto;
-    margin-top: 50px;
-}
+
+    #play-again-btn-end{
+        background-color: red;
+        padding: 10px 20px;
+        margin-top: 20px;
+        color: white;
+    }
+
+
 
 footer {
     position: absolute;
@@ -252,9 +256,11 @@ footer {
 @media (max-width: 576px) {
     .container{
         width: 100%;
+      
     }
     .quiz-container {
         width: 100%;
+      
     }
 
     .quiz-questions {
@@ -280,7 +286,7 @@ footer {
 
     .container {
        max-width: 100%;
-       height: auto;
+       height: 50%;
     }
     .quiz-container {
         max-width: 100%; 

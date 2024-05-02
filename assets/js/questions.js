@@ -53,7 +53,7 @@ function startQuiz() {
     score = 0;
     remainingQuestions = [...questions];
     getNewQuestion();
-};
+}
 
 // Function to get a new question
 function getNewQuestion() {
@@ -71,7 +71,7 @@ function getNewQuestion() {
         option.innerText = currentQuestion.options[index];
     });
 
-    acceptingAnswers = true; // Ensure that the quiz is ready to accept answers for the new question
+    acceptingAnswers = true;
 }
 
 // Function to end the quiz
@@ -80,8 +80,9 @@ function endQuiz() {
     gameContainer.style.display = "none";
 
     // Hide the options
-    options.forEach(option => {
-        option.style.display = "none";
+    const optionContainers = document.querySelectorAll('.option-container');
+    optionContainers.forEach(container => {
+        container.style.display = "none";
     });
 
     // Display end message
@@ -91,7 +92,7 @@ function endQuiz() {
     playAgainButton.addEventListener("click", () => {
         endMessageContainer.style.display = "none";
         gameContainer.style.display = "block";
-        startQuiz(); // Restart the quiz when play again button is clicked
+       
     });
 }
 
