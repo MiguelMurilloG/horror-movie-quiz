@@ -92,7 +92,7 @@ function endQuiz() {
     } else if (score >= 20) {
         endMessageText = "Not bad! Keep trying to escaping from your nightmares..";
     } else {
-        endMessageText = "Too bad...Welcome to hell!";
+        endMessageText = "Too bad...Welcome to the darkness!";
     }
 
   
