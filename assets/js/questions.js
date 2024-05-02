@@ -88,7 +88,7 @@ function endQuiz() {
     // Display end message
     let endMessageText = "";
     if (score >= 40) {
-        endMessageText = "Amazing! You survived the Horror movie quiz";
+        endMessageText = "Amazing! You survived the Horror Movie Quiz";
     } else if (score >= 20) {
         endMessageText = "Not bad! Keep trying to escaping from your nightmares..";
     } else {
@@ -96,7 +96,7 @@ function endQuiz() {
     }
 
   
-  endMessage.textContent = `${endMessageText} Your final score is: ${score}`;
+  endMessage.textContent = `${endMessageText}. Your final score is: ${score}`;
   endMessageContainer.style.display = "block";
   const playAgainButton = document.getElementById("play-again-btn");
   playAgainButton.addEventListener("click", () => {
