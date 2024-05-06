@@ -173,6 +173,8 @@ h1 {
 }
 
 
+/*Score counter*/
+
 #top-score {
     
     width: 140px;
@@ -185,7 +187,7 @@ h1 {
 
 .top-score-counter {
     width: 100px;
-    font-size: 25px;
+    font-size: 30px;
 
     
 }
@@ -236,10 +238,11 @@ h1 {
     margin-top: 20px;
     
 }
+
 /*end quiz*/
 #end-message {
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 35px;
     color: red;
 
     }
@@ -252,6 +255,7 @@ h1 {
         background-color: red;
         
     }
+    
     /*highlited correct and incorrect answers*/
     .correct {
         background-color: green;
@@ -285,6 +289,10 @@ footer {
 
 /* For screens up to 576px wide (e.g., smartphones) */
 @media (max-width: 576px) {
+   #quiz-content {
+   margin-top: 17%;
+   }
+   
     .container{
         width: 100%;
       
@@ -295,12 +303,12 @@ footer {
     }
 
     .quiz-questions {
-        font-size: 16px; 
+        font-size: 14px; 
     }
 
     .option-container {
         width: 100%; 
-        margin-bottom: 10px; 
+       
     }
 
     .choice-btn {
@@ -309,6 +317,10 @@ footer {
 
     #quiz-end {
         width: 100%; 
+    }
+
+    footer {
+        font-size: 12px;
     }
 }
 
@@ -324,4 +336,7 @@ footer {
        
     }
   
+    footer {
+        font-size: 20px;
+    }
 }
