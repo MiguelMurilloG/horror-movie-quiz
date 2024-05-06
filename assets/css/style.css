@@ -5,7 +5,7 @@ body {
     font-family: 'Jacquard', sans-serif;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 102vh;
     background-image: url(../images/creepy-house.jpg);
     background-position: center;
     background-size: cover;
@@ -16,7 +16,7 @@ body {
 h1 {
     font-family: "Jacquard", sans-serif;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 33px;
     background-color: rgba(17, 3, 3, 0.5);
     color: red;
     text-align: center;
@@ -41,7 +41,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     width: 800px;
-    height: 600px;
+    height: 500px;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -168,7 +168,7 @@ h1 {
 }
 
  h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 2%;
 }
 
@@ -278,7 +278,7 @@ h1 {
 footer {
     position: absolute;
     margin-top: 100px;
-    font-size: 30px;
+    font-size: 25px;
     color: red;
     text-transform: uppercase;
     left: 50%;
@@ -287,14 +287,17 @@ footer {
 }
 
 
-/* For screens up to 576px wide (e.g., smartphones) */
+/* For screens up to 576px wide (smartphones) */
 @media (max-width: 576px) {
-   #quiz-content {
-   margin-top: 17%;
+   
+
+    #quiz-content {
+   margin-top: 18%;
    }
    
     .container{
         width: 100%;
+        height: 50vh;
       
     }
     .quiz-container {
@@ -303,12 +306,19 @@ footer {
     }
 
     .quiz-questions {
-        font-size: 14px; 
+        font-size: 12px; 
+    }
+    
+    #questions-container {
+        font-size: 20px;
     }
 
     .option-container {
         width: 100%; 
        
+    }
+    .top-score-counter {
+        font-size: 30px;
     }
 
     .choice-btn {
@@ -320,7 +330,8 @@ footer {
     }
 
     footer {
-        font-size: 12px;
+        font-size: 10px;
+      
     }
 }
 
@@ -328,11 +339,13 @@ footer {
 @media (min-width: 577px) and (max-width: 1200px) {
 
     .container {
-       max-width: 100%;
-       height: 50%;
+       width: 100%;
+       height: 70vh;
+   
     }
     .quiz-container {
-        max-width: 100%; 
+        width: 100%; 
+       
        
     }
   
