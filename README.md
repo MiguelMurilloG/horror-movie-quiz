@@ -79,10 +79,44 @@ By combining these fonts, the quiz achieves a harmonious balance between creativ
 - [Gitpod](https://gitpod.io/workspaces): Utilized as a cloud-based Integrated Development Environment (IDE) for seamless and efficient coding workflows.
 
 ---
+### Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are:
+
+- In the GitHub repository, navigate to the Settings tab.
+- On the GitHub Pages section clicked on the pages settings dedicated tab link.
+- From the source section drop-down menu, select the Main Branch click on seve.
+- Once the Main Branch has been selected and saved, the page provided the link to the completed website.
+
+- The live link ca be found here: [Horror Movie Quiz](https://miguelmurillog.github.io/horror-movie-quiz/)
+
+
+### Local Development
+
+
+# How to Fork
+
+To fork a repository on GitHub, follow these steps:
+
+- Log in to GitHub or create a new account.
+- Find the repository for the horror movie quiz project.
+- Click the "Fork" button in the top right corner, located below where "Settings" is displayed.
+- By forking the repository, you create a copy of the original project under your GitHub account, allowing you to make changes and contribute to the project without affecting the original repository.
+
+# How to Clone
+
+To clone a repository on Github, follow these steps:
+
+- Log in to Github - or step up a new account.
+- Find the repository for [Horror Movie Quiz](https://github.com/MiguelMurilloG/horror-movie-quiz) (the repository for the quiz is called 'horror-movie-quiz').
+- Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
+
 # Credits
 - [Udemy](https://www.udemy.com/course/build-a-quiz-app-with-html-css-and-javascript/learn/lecture/13685348#content): The foundational concepts and structure of the quiz were derived from this course, providing a solid framework for further customization and enhancement.
 - [W3Schools](https://www.w3schools.com):  Offered valuable resources and tutorials on HTML, CSS, and JavaScript concepts.
-- [Slack-Community](https://slack.com/intl/en-gb/): A helpful community for troubleshooting and solving coding challenges.
+- [Slack Community](https://slack.com/intl/en-gb/): A helpful community for troubleshooting and solving coding challenges.
 
 
 ## Acknowledgements

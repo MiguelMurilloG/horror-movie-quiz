@@ -3,7 +3,7 @@
 
 
 body {
-    font-family: 'Creepster' sans-serif;
+    font-family: 'Creepster', sans-serif;
     margin: 0;
     padding: 0;
     height: 102vh;
@@ -163,8 +163,6 @@ h1 {
 .option-text {
     padding: 10px;
     width: 100%;
-   
-   
     
 
 }
