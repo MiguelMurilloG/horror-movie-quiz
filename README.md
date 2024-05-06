@@ -8,11 +8,11 @@ Welcome to the Horror Movie Quiz, where you can test your knowledge of the scari
 
 ## Live Site
 
-- [Horror-Movie-Quiz](https://miguelmurillog.github.io/horror-movie-quiz/)
+- [You can view the live site here](https://miguelmurillog.github.io/horror-movie-quiz/)
 
 ## GITHUB Repository
 
-- [Horror-Movie-Quiz](https://github.com/MiguelMurilloG/horror-movie-quiz)
+- [You can view the Github page here](https://github.com/MiguelMurilloG/horror-movie-quiz)
 
 ---
 
@@ -70,8 +70,8 @@ By combining these fonts, the quiz achieves a harmonious balance between creativ
 
 - [HTML](https://www.w3schools.com/html/default.asp): Employed for crafting the fundamental site structure and content.
 - [CSS](https://www.w3schools.com/css/default.asp): Utilized for embellishing and refining the aesthetic aspects and layout of the main site.
-- [CSS-Flexbox](https://www.w3schools.com/css/css3_flexbox.asp): Implemented for enhancing the responsiveness and adaptability of the design.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp): Implemented for enhancing the responsiveness and adaptability of the design.
 - [Git](https://git-scm.com): Employed for version control management, including essential commands such as git add, git commit, and git push.
 - [GitHub](https://github.com): Utilized as a reliable platform for secure storage and collaborative development of the codebase.
-- [GitHub-Pages](https://pages.github.com): Deployed to host the finalized front-end site, ensuring its accessibility to a wider audience.
+- [GitHub Pages](https://pages.github.com): Deployed to host the finalized front-end site, ensuring its accessibility to a wider audience.
 - [Gitpod](https://gitpod.io/workspaces): Utilized as a cloud-based Integrated Development Environment (IDE) for seamless and efficient coding workflows.
