@@ -1,8 +1,9 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+24&family=Oswald:wght@200..700&display=swap');
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
 
 body {
-    font-family: 'Jacquard', sans-serif;
+    font-family: 'Creepster' sans-serif;
     margin: 0;
     padding: 0;
     height: 102vh;
@@ -14,9 +15,9 @@ body {
 
 /* Heading and Logo */
 h1 {
-    font-family: "Jacquard", sans-serif;
+    font-family: 'Creepster', sans-serif;
     text-transform: uppercase;
-    font-size: 33px;
+    font-size: 40px;
     background-color: rgba(17, 3, 3, 0.5);
     color: red;
     text-align: center;
@@ -41,7 +42,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     width: 800px;
-    height: 500px;
+    height: 700px;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -125,7 +126,7 @@ h1 {
 .quiz-container {
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 2);
-    width: 900px;
+    width: 800px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -163,13 +164,15 @@ h1 {
     padding: 10px;
     width: 100%;
    
+   
     
 
 }
 
  h2 {
-    font-size: 28px;
-    margin-bottom: 2%;
+    font-size: 33px;
+   
+  
 }
 
 
@@ -187,8 +190,7 @@ h1 {
 
 .top-score-counter {
     width: 100px;
-    font-size: 30px;
-
+    font-size: 1.8rem;
     
 }
 
@@ -205,11 +207,13 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     border: 2px solid red;
     border-radius: 2%;
-    
-
-  
+     
 }
 
+#question-counter {
+    font-family: 'Creepster';
+    font-size: 1.8rem;
+}
 
 /*style for the end section*/
 
@@ -276,6 +280,7 @@ h1 {
 
 
 footer {
+    font-family: 'Creepster';
     position: absolute;
     margin-top: 100px;
     font-size: 25px;
@@ -287,40 +292,24 @@ footer {
 }
 
 
-/* For screens up to 576px wide (smartphones) */
-@media (max-width: 576px) {
-   
-h1{
-    font-size: auto;
-}
-    #quiz-content {
-   margin-top: 18%;
-   }
+/* For screens up to 800px*/
+@media (max-width: 800px) {
    
     .container{
         width: 100%;
-        height: 50vh;
+    
       
     }
     .quiz-container {
         width: 100%;
-      
+  
+       
     }
 
-    .quiz-questions {
-        font-size: 12px; 
-    }
-    
-    #questions-container {
-        font-size: 20px;
-    }
 
     .option-container {
         width: 100%; 
        
-    }
-    .top-score-counter {
-        font-size: 30px;
     }
 
     .choice-btn {
@@ -329,6 +318,7 @@ h1{
 
     #quiz-end {
         width: 100%; 
+        
     }
 
     footer {
@@ -338,19 +328,25 @@ h1{
 }
 
 /* For screens between 576px and 1200px wide */
-@media (min-width: 577px) and (max-width: 1200px) {
+@media (min-width: 1200px)  {
 
     .container {
        width: 100%;
-       height: 70vh;
    
     }
-    .quiz-container {
-        width: 100%; 
-       
+
+    .quiz-container{
+        width: 100%;
        
     }
-  
+
+    .option-container {
+        width: 100%;
+    }
+    
+    #quiz-end {
+        width: 100%; 
+    }
     footer {
         font-size: 20px;
     }
