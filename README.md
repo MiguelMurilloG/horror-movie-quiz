@@ -10,7 +10,7 @@ Welcome to the Horror Movie Quiz, where you can test your knowledge of the scari
 
 - [You can view the live site here](https://miguelmurillog.github.io/horror-movie-quiz/)
 
-## GITHUB Repository
+## Github Repository
 
 - [You can view the Github page here](https://github.com/MiguelMurilloG/horror-movie-quiz)
 
@@ -36,6 +36,8 @@ Visitot Goals:
 # Features 
 
 - Entrance Page: Welcomes players with a spooky background image and a prominent quiz title.
+
+- Instrunctions : Clear instructions guide players on how to navigate the quiz, ensuring they understand the mechanics before delving into the questions.
 - Quiz Area: Displays quiz questions and multiple-choice options within a container adorned with horror-themed visuals.
 - Question Counter: Indicates the player's progress through the quiz, ensuring they know how many questions remain.
 - Feedback: Provides immediate feedback on the player's answers, highlighting correct and incorrect choices.
@@ -75,3 +77,21 @@ By combining these fonts, the quiz achieves a harmonious balance between creativ
 - [GitHub](https://github.com): Utilized as a reliable platform for secure storage and collaborative development of the codebase.
 - [GitHub Pages](https://pages.github.com): Deployed to host the finalized front-end site, ensuring its accessibility to a wider audience.
 - [Gitpod](https://gitpod.io/workspaces): Utilized as a cloud-based Integrated Development Environment (IDE) for seamless and efficient coding workflows.
+
+---
+# Credits
+- [Udemy](https://www.udemy.com/course/build-a-quiz-app-with-html-css-and-javascript/learn/lecture/13685348#content): The foundational concepts and structure of the quiz were derived from this course, providing a solid framework for further customization and enhancement.
+- [W3Schools](https://www.w3schools.com):  Offered valuable resources and tutorials on HTML, CSS, and JavaScript concepts.
+- [Slack-Community](https://slack.com/intl/en-gb/): A helpful community for troubleshooting and solving coding challenges.
+
+
+## Acknowledgements
+I want to express my gratitude to the following individuals and communities for their contributions and support during the development of this horror movie quiz:
+
+- Sheryl Goldberg: My mentor from Code Institute, whose insightful feedback and guidance helped shape this project into what it is today.
+- Code Institute Tutor Team: Their assistance with troubleshooting and advice on coding challenges have been invaluable throughout the development process.
+- Code Institute Slack Community: The supportive environment and shared knowledge within the community were instrumental in overcoming obstacles and staying motivated.
+- My Family and Friends: Special thanks to my loved ones for their encouragement, patience, and willingness to test the quiz repeatedly.
+- Unsplash: Thank you to the photographers on Unsplash for providing stunning imagery that helped set the eerie atmosphere of the quiz.
+- Google Fonts: The selection of fonts from Google Fonts added personality and style to the quiz interface.
+- GitHub and Gitpod: Utilizing version control with Git and hosting the project on GitHub and Gitpod made collaboration and development seamless.
