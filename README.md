@@ -30,7 +30,8 @@ First time players goal:
 
 - Test their knowledge of horror in a fun way.
 - Enjoy a visually apppealing and user-friendly quiz interface.
-- Receive and instant feedback on their quiz performance.
+- Receive and instant feedback on their quiz performance, allowing them to learn and improve
+as they play.
 
 ### Design
 
