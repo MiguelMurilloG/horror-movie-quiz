@@ -44,22 +44,22 @@
 
 - During the development of my project, I was using Google DevTools for resolve bugs.
 
-- question.js
+### question.js
 - Fixed a syntax error by adding a come after a closes square bracket on the starQuiz
 
-- Question Counter
+### Question Counter
 -Resolved the issue with the question counter by addding questionCcounter + 1, to update the counter
 dinamically, enabling proper tracking of the question progression
 
-- Play Again Button
+### Play Again Button
 - Addressed the malfunctioning 'Play Again' button by implementing a click event listener, ensuring users can restart the quiz seamlessly for an enhanced user experience.
 
-- Meta Tags
+### Meta Tags
 - I have to add meta tags to improve my SEO
 
 ## General Testing Summary
 
-- The site is been testing by friends and Slack Comunnity.
+- The site is been testing by friends and Slack Community.
 - No reported issues or bugs, indicating smooth funcionality.
 
 
