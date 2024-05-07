@@ -42,6 +42,12 @@
 
 ## Manual Testing 
 
+- During the development of my project, I was using Google DevTools for resolve bugs.
+
+- question.js
+- Fixed a syntax error by adding a come after a closes square bracket on the starQuiz
+
+
 
 
 
