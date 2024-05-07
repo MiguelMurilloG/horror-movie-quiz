@@ -53,14 +53,14 @@ h1 {
 }
 
 .container h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
     text-transform: uppercase;
 }
 
 /* Buttons */
 .btn-big {
-    font-size: 1rem;
+    font-size: 15px;
     padding: 3%;
     text-decoration: none;
     color: black;
@@ -110,6 +110,7 @@ h1 {
     padding: 1rem;
     margin-top: 10px;
     border-radius: 20px;
+
 }
 
 /* Quiz Content Styling */
@@ -294,16 +295,14 @@ footer {
 /* For screens up to 576px wide (smartphones) */
 @media (max-width: 576px) {
    
-h1{
-    font-size: 100%;
-}
-    #quiz-content {
+
+   #quiz-content {
    margin-top: 18%;
    }
    
     .container{
         width: 100%;
-        height: 50vh;
+        height: 60vh;
       
     }
     .quiz-container {
@@ -342,20 +341,49 @@ h1{
 }
 
 /* For screens between 576px and 1200px wide */
-@media (min-width: 577px) and (max-width: 1200px) {
+@media (min-width: 576px) and (max-width: 1280px) {
 
-    .container {
-       width: 100%;
-       height: 70vh;
-   
+    
+   #quiz-content {
+    height: 100vh;
     }
-    .quiz-container {
-        width: 100%; 
+    
+     .container{
+         width: 70%;
+         height: 50vh;
        
+     }
+     .quiz-container {
+         width: 100%;
+      
+     }
+ 
+     .quiz-questions {
+         font-size: 12px; 
+     }
+     
+     #questions-container {
+         font-size: 20px;
+     }
+ 
+     .option-container {
+         width: 100%; 
+        
+     }
+     .top-score-counter {
+         font-size: 30px;
+     }
+ 
+     .choice-btn {
+         width: 100%; 
+     }
+ 
+     #quiz-end {
+         width: 100%; 
+     }
+ 
+     footer {
+         font-size: 10px;
        
-    }
-  
-    footer {
-        font-size: 20px;
-    }
-}
+     }
+ }
