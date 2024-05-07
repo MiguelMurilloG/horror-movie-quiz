@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horror Movies Quiz</title>
+    <!-- Meta tags -->
+    <meta name="description" content="Test your horror movie knowledge with this thrilling quiz. Are you ready">
+    <meta name="keywords" content="movies, horror, scary, horror movie quiz">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/jpg" href="docs/favicon-image.png" />
+    <title>Horror Movies Quiz</title>
+</head>
 </head>
 <body>
     <!-- Heading -->
@@ -14,7 +18,7 @@
         <h1>Horror Movies Quiz</h1>
     </header>
     <div class="container">
-      <h2>Do you wanna play a game?</h2>
+      <h2>Do you want to play a game?</h2>
         <button class="btn-big" id="instructions-btn" onclick="openInstructions()">Reveal the Dark Path</button>
         <div class="instruction-box open box" id="quiz-instruction">
             <!--list of instrunctions-->
@@ -26,17 +30,20 @@
                 <li>Each correct answer earns you 10 point.</li>
                 <li>Click "Step Into The Nightmares" to begin.</li>
              </ul>
+             <!-- Buttons for instructions -->
         <button aria-label="close the instructions" id="close-instructions-btn" type="button" onclick="closeInstructions()">OK</button>     
         </div>
         <button class="btn-big" id="start-button" onclick="window.location.href='quiz.html'">Step Into The Nightmares</button>
 
 
     </div>
-
+    <!-- Footer -->
     <footer>
+        
        Developed by Miguel Murillo
     </footer>
-   
+
+   <!-- Javascript file-->
     <script src="assets/js/script.js"></script>
    
    

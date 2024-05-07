@@ -47,7 +47,7 @@ const questions = [
 ];
 
 
-// Function to start the quiz
+// Function to start the quiz helped by the tutorial in Udemy how to build a game in Javascript
 function startQuiz() {
     questionCounter = 0;
     score = 0;
