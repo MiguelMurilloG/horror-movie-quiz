@@ -32,39 +32,6 @@ Visitor Goals:
 - Enjoy a visually apppealing and user-friendly quiz interface.
 - Receive and instant feedback on their quiz performance.
 
-
-## Features 
-
- ### Main Page
-- Welcomes players with a chilling atmosphere created by a spooky background image and a prominently displayed quiz title, setting the tone for the eerie experience to come.
-![Screenshot from Main page](docs/home-page.png)
-
-### Instructions 
-- Detailed and clear instructions guide players on how to navigate the quiz, ensuring they understand the mechanics before delving into the questions. The instructions provide essential information, such as how many questions they will face and how scoring works.
-![Screenshot from Quiz instruction box](docs/quiz-instructions.png)
-
-### Quiz Area: 
-- Immerse yourself in the dark world of horror with the quiz area, which displays each question alongside multiple-choice options. The container is adorned with horror-themed visuals, enhancing the atmosphere and adding to the suspense of the game.
-![Screenshot from Quiz game area](docs/quiz-game.png)
-
-### Question Counter: 
-- Keep track of your progress through the quiz with the question counter, prominently displayed to ensure players know how many questions remain. This feature adds to the suspense and excitement as players strive to reach the end of the quiz.
-![Screenshot from Question counter](docs/questions-counter.png)
-### Feedback: 
-- Receive immediate feedback on your answers as the quiz progresses. Correct answers are highlighted, providing a sense of accomplishment, while incorrect choices are flagged to help players learn and improve their knowledge.
-
-### Score Area: 
-Experience a thrilling conclusion to the quiz as the results page congratulates players on completing the challenge and reveals their final score. This page serves as a satisfying conclusion to the game, offering closure and a sense of achievement.
-![Screenshot from End message](docs/quiz-end-message.png)
-
-### Play Again Option:
-- Keep the horror alive with the play again option, allowing players to replay the quiz and strive to beat their previous score. This feature encourages replayability and ensures endless entertainment for horror enthusiasts.
-![Screenshot from End message](docs/play-again-button.png)
-
-### End Quiz Option
-- Players have the option to end the quiz at any time, allowing them to exit the game and view their final score. 
-![Screenshot from End message](docs/end-quiz-button.png)
-
 ### Design
 
 ### Colour Scheme
@@ -79,6 +46,13 @@ The colour schme is inspired by classic horror movies:
 
 ![Screenshot from coolors](docs/colors.png)
 
+### Background Image
+- Dynamic Backgrounds: I used two different background images are used throughout the quiz experience to create a distinct atmosphere. The main page features a chilling entrance background, while the quiz game area showcases a different background, enhancing immersion and visual appeal.
+
+![Screenshot from Main page background](docs/front-house.png)
+
+![Screenshot from Second page background](docs/hands-quiz.png)
+
 ### Typography
 
 The fonts used in this quiz were selected from Google Fonts, a library of open-source fonts that offers a wide range of styles for various design needs. Two distinct fonts were chosen to complement the theme and enhance readability:
@@ -88,6 +62,46 @@ The fonts used in this quiz were selected from Google Fonts, a library of open-s
 By combining these fonts, the quiz achieves a harmonious balance between creativity and legibility, enhancing the overall user experience.
 
 ![Screenshot from Google Fonts](docs/font.png)
+
+## Features 
+
+ ### Main Page
+- Welcomes players with a chilling atmosphere created by a spooky background image and a prominently displayed quiz title, setting the tone for the eerie experience to come.
+
+![Screenshot from Main page](docs/home-page.png)
+
+### Instructions 
+- Detailed and clear instructions guide players on how to navigate the quiz, ensuring they understand the mechanics before delving into the questions. The instructions provide essential information, such as how many questions they will face and how scoring works.
+
+![Screenshot from Quiz instruction box](docs/quiz-instructions.png)
+
+### Quiz Area
+- Immerse yourself in the dark world of horror with the quiz area, which displays each question alongside multiple-choice options. The container is adorned with horror-themed visuals, enhancing the atmosphere and adding to the suspense of the game.
+
+![Screenshot from Quiz game area](docs/quiz-game.png)
+
+### Question Counter
+- Keep track of your progress through the quiz with the question counter, prominently displayed to ensure players know how many questions remain. This feature adds to the suspense and excitement as players strive to reach the end of the quiz.
+
+![Screenshot from Question counter](docs/questions-counter.png)
+
+### Feedback
+- Receive immediate feedback on your answers as the quiz progresses. Correct answers are highlighted, providing a sense of accomplishment, while incorrect choices are flagged to help players learn and improve their knowledge.
+
+### Score Area
+Experience a thrilling conclusion to the quiz as the results page congratulates players on completing the challenge and reveals their final score. This page serves as a satisfying conclusion to the game, offering closure and a sense of achievement.
+
+![Screenshot from End message](docs/quiz-end-message.png)
+
+### Play Again Option
+- Keep the horror alive with the play again option, allowing players to replay the quiz and strive to beat their previous score. This feature encourages replayability and ensures endless entertainment for horror enthusiasts.
+![Screenshot from End message](docs/play-again-button.png)
+
+### End Quiz Option
+- Players have the option to end the quiz at any time, allowing them to exit the game and view their final score. 
+
+![Screenshot from End message](docs/end-quiz-button.png)
+
 
 ### Tecnologies Used
 
