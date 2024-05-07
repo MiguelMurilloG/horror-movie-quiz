@@ -47,8 +47,20 @@
 - question.js
 - Fixed a syntax error by adding a come after a closes square bracket on the starQuiz
 
+- Question Counter
+-Resolved the issue with the question counter by addding questionCcounter + 1, to update the counter
+dinamically, enabling proper tracking of the question progression
 
+- Play Again Button
+- Addressed the malfunctioning 'Play Again' button by implementing a click event listener, ensuring users can restart the quiz seamlessly for an enhanced user experience.
 
+- Meta Tags
+- I have to add meta tags to improve my SEO
+
+## General Testing Summary
+
+- The site is been testing by friends and Slack Comunnity.
+- No reported issues or bugs, indicating smooth funcionality.
 
 
 Back to [READ.md](README.md)

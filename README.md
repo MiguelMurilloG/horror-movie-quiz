@@ -65,6 +65,11 @@ By combining these fonts, the quiz achieves a harmonious balance between creativ
 
 ## Features 
 
+### Favicon
+- The site includes a favicon, visible in the web browser tab and when bookmarked, enhancing recognition and ease of access for users.
+
+![Screenshot from Favicon image](docs/favicon-image.png)
+
  ### Main Page
 - Welcomes players with a chilling atmosphere created by a spooky background image and a prominently displayed quiz title, setting the tone for the eerie experience to come.
 
@@ -86,10 +91,11 @@ By combining these fonts, the quiz achieves a harmonious balance between creativ
 ![Screenshot from Question counter](docs/questions-counter.png)
 
 ### Feedback
-- Receive immediate feedback on your answers as the quiz progresses. Correct answers are highlighted, providing a sense of accomplishment, while incorrect choices are flagged to help players learn and improve their knowledge.
+- Receive immediate feedback on your answers as the quiz progresses. Correct answers are highlighted, providing a sense of accomplishment, while incorrect choices are flagged to help players learn and improve their knowledge. 
+
 
 ### Score Area
-Experience a thrilling conclusion to the quiz as the results page congratulates players on completing the challenge and reveals their final score. This page serves as a satisfying conclusion to the game, offering closure and a sense of achievement.
+- Experience a thrilling conclusion to the quiz as the results page congratulates players on completing the challenge and reveals their final score. This page serves as a satisfying conclusion to the game, offering closure and a sense of achievement. Also there is a unique messages based on their score.
 
 ![Screenshot from End message](docs/quiz-end-message.png)
 
