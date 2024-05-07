@@ -21,3 +21,5 @@
 ### CSS
 
 - No errors were returned when passing thourgh the W3C CSS
+
+![Screenshot from W3C Validator HMTL](docs/no-error-css.png)
