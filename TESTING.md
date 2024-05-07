@@ -39,3 +39,6 @@
 ![Screenshot Lighthouse main page](docs/ligthouse-desktop.png)
 ![Screenshot Lighthouse quiz page](docs/lighthouse-desktop-quiz.png)
 
+
+
+Back to [READ.md](README.md)

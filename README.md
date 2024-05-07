@@ -115,6 +115,10 @@ Experience a thrilling conclusion to the quiz as the results page congratulates 
 - [Gitpod](https://gitpod.io/workspaces): Utilized as a cloud-based Integrated Development Environment (IDE) for seamless and efficient coding workflows.
 
 ---
+## Testing
+
+- For all testing, refer to the [TESTING.md](TESTING.md)
+
 ### Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are:
