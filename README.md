@@ -26,23 +26,44 @@ Client Goals:
 - Let them know the progress as the play.
 - Give them a chance to play again and beat the score.
 
-Visitot Goals:
+Visitor Goals:
 
 - Test their knowledge of horror in a fun way.
 - Enjoy a visually apppealing and user-friendly quiz interface.
 - Receive and instant feedback on their quiz performance.
 
 
-# Features 
+## Features 
 
-- Entrance Page: Welcomes players with a spooky background image and a prominent quiz title.
+ ### Main Page
+- Welcomes players with a chilling atmosphere created by a spooky background image and a prominently displayed quiz title, setting the tone for the eerie experience to come.
+![Screenshot from Main page](docs/home-page.png)
 
-- Instrunctions : Clear instructions guide players on how to navigate the quiz, ensuring they understand the mechanics before delving into the questions.
-- Quiz Area: Displays quiz questions and multiple-choice options within a container adorned with horror-themed visuals.
-- Question Counter: Indicates the player's progress through the quiz, ensuring they know how many questions remain.
-- Feedback: Provides immediate feedback on the player's answers, highlighting correct and incorrect choices.
-- Results Page: Congratulates players on completing the quiz and reveals their final score.
-- Play Again Option: Allows players to replay the quiz to beat their previous score and continue the fun.
+### Instructions 
+- Detailed and clear instructions guide players on how to navigate the quiz, ensuring they understand the mechanics before delving into the questions. The instructions provide essential information, such as how many questions they will face and how scoring works.
+![Screenshot from Quiz instruction box](docs/quiz-instructions.png)
+
+### Quiz Area: 
+- Immerse yourself in the dark world of horror with the quiz area, which displays each question alongside multiple-choice options. The container is adorned with horror-themed visuals, enhancing the atmosphere and adding to the suspense of the game.
+![Screenshot from Quiz game area](docs/quiz-game.png)
+
+### Question Counter: 
+- Keep track of your progress through the quiz with the question counter, prominently displayed to ensure players know how many questions remain. This feature adds to the suspense and excitement as players strive to reach the end of the quiz.
+![Screenshot from Question counter](docs/questions-counter.png)
+### Feedback: 
+- Receive immediate feedback on your answers as the quiz progresses. Correct answers are highlighted, providing a sense of accomplishment, while incorrect choices are flagged to help players learn and improve their knowledge.
+
+### Score Area: 
+Experience a thrilling conclusion to the quiz as the results page congratulates players on completing the challenge and reveals their final score. This page serves as a satisfying conclusion to the game, offering closure and a sense of achievement.
+![Screenshot from End message](docs/quiz-end-message.png)
+
+### Play Again Option:
+- Keep the horror alive with the play again option, allowing players to replay the quiz and strive to beat their previous score. This feature encourages replayability and ensures endless entertainment for horror enthusiasts.
+![Screenshot from End message](docs/play-again-button.png)
+
+### End Quiz Option
+- Players have the option to end the quiz at any time, allowing them to exit the game and view their final score. 
+![Screenshot from End message](docs/end-quiz-button.png)
 
 ### Design
 
@@ -88,13 +109,13 @@ The site was deployed to GitHub pages. The steps to deploy are:
 - From the source section drop-down menu, select the Main Branch click on seve.
 - Once the Main Branch has been selected and saved, the page provided the link to the completed website.
 
-- The live link ca be found here: [Horror Movie Quiz](https://miguelmurillog.github.io/horror-movie-quiz/)
+- The live link can be found here: [Horror Movie Quiz](https://miguelmurillog.github.io/horror-movie-quiz/)
 
 
-### Local Development
+## Local Development
 
 
-# How to Fork
+### How to Fork
 
 To fork a repository on GitHub, follow these steps:
 
@@ -103,7 +124,7 @@ To fork a repository on GitHub, follow these steps:
 - Click the "Fork" button in the top right corner, located below where "Settings" is displayed.
 - By forking the repository, you create a copy of the original project under your GitHub account, allowing you to make changes and contribute to the project without affecting the original repository.
 
-# How to Clone
+### How to Clone
 
 To clone a repository on Github, follow these steps:
 
@@ -113,7 +134,7 @@ To clone a repository on Github, follow these steps:
 - Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 - Type 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
 
-# Credits
+## Credits
 - [Udemy](https://www.udemy.com/course/build-a-quiz-app-with-html-css-and-javascript/learn/lecture/13685348#content): The foundational concepts and structure of the quiz were derived from this course, providing a solid framework for further customization and enhancement.
 - [W3Schools](https://www.w3schools.com):  Offered valuable resources and tutorials on HTML, CSS, and JavaScript concepts.
 - [Slack Community](https://slack.com/intl/en-gb/): A helpful community for troubleshooting and solving coding challenges.
