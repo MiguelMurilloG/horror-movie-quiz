@@ -40,5 +40,9 @@
 ![Screenshot Lighthouse quiz page](docs/lighthouse-desktop-quiz.png)
 
 
+## Manual Testing 
+
+
+
 
 Back to [READ.md](README.md)

@@ -18,7 +18,7 @@ Welcome to the Horror Movie Quiz, where you can test your knowledge of the scari
 
 ## User Experience (UX)
 
-Client Goals:
+Frequent players goal:
 
 - Provide an online quiz that is fun and easy to play.
 - Offer a difficult yet enjoyable quiz format.
@@ -26,7 +26,7 @@ Client Goals:
 - Let them know the progress as the play.
 - Give them a chance to play again and beat the score.
 
-Visitor Goals:
+First time players goal:
 
 - Test their knowledge of horror in a fun way.
 - Enjoy a visually apppealing and user-friendly quiz interface.
@@ -71,7 +71,7 @@ By combining these fonts, the quiz achieves a harmonious balance between creativ
 ![Screenshot from Main page](docs/home-page.png)
 
 ### Instructions 
-- Detailed and clear instructions guide players on how to navigate the quiz, ensuring they understand the mechanics before delving into the questions. The instructions provide essential information, such as how many questions they will face and how scoring works.
+- Detailed and clear instructions guide players on how to navigate the quiz, ensuring they understand the mechanics before delving into the questions. The instructions provide essential information, such as how many questions they will face and how scoring works. 
 
 ![Screenshot from Quiz instruction box](docs/quiz-instructions.png)
 
