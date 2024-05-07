@@ -165,6 +165,13 @@ To clone a repository on Github, follow these steps:
 - [W3Schools](https://www.w3schools.com):  Offered valuable resources and tutorials on HTML, CSS, and JavaScript concepts.
 - [Slack Community](https://slack.com/intl/en-gb/): A helpful community for troubleshooting and solving coding challenges.
 
+## Content
+
+-  This quiz draws its inspiration from [Horror Movies trivia and quizzes](https://triviacreator.com/tags/horror-movies)
+
+## Media
+
+- The background images utilized in this project were sourced from [Unplash](https://unsplash.com/s/photos/horror)
 
 ## Acknowledgements
 I want to express my gratitude to the following individuals and communities for their contributions and support during the development of this horror movie quiz:
