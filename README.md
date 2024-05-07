@@ -95,6 +95,7 @@ Experience a thrilling conclusion to the quiz as the results page congratulates 
 
 ### Play Again Option
 - Keep the horror alive with the play again option, allowing players to replay the quiz and strive to beat their previous score. This feature encourages replayability and ensures endless entertainment for horror enthusiasts.
+
 ![Screenshot from End message](docs/play-again-button.png)
 
 ### End Quiz Option
