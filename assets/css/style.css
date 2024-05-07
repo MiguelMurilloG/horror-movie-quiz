@@ -295,7 +295,7 @@ footer {
 @media (max-width: 576px) {
    
 h1{
-    font-size: auto;
+    font-size: 100%;
 }
     #quiz-content {
    margin-top: 18%;
