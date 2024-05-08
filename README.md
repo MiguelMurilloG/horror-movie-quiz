@@ -69,7 +69,7 @@ By combining these fonts, the quiz achieves a harmonious balance between creativ
 ### Favicon
 - The site includes a favicon, visible in the web browser tab and when bookmarked, enhancing recognition and ease of access for users.
 
-![Screenshot from Favicon image](docs/favicon-image.png)
+![Screenshot from Favicon image](docs/favicon-readme.png)
 
  ### Main Page
 - Welcomes players with a chilling atmosphere created by a spooky background image and a prominently displayed quiz title, setting the tone for the eerie experience to come.
