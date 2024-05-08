@@ -278,6 +278,7 @@ h1 {
     }
 
 
+/* footer */
 
 footer {
     font-family: 'Creepster';
@@ -293,7 +294,7 @@ footer {
 
 
 
-/* For screens up to 576px wide (smartphones) */
+/* For screens up to 576px wide small screens */
 @media (max-width: 576px) {
    
 
